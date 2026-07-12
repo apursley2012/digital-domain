@@ -1,0 +1,1 @@
+import{j as e,m as t}from"../assets/proxy.js";function s({text:i,speed:n=20,className:a=""}){return e.jsx("div",{className:`overflow-hidden whitespace-nowrap flex items-center ${a}`,children:e.jsx(t.div,{initial:{x:"100%"},animate:{x:"-100%"},transition:{repeat:1/0,ease:"linear",duration:n},className:"inline-block",children:i})})}export{s as M};
